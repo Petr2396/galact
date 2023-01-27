@@ -1,0 +1,267 @@
+.avatar {
+    width: 200px;
+    
+   
+    
+}
+body {
+    background-color: blueviolet;
+    font-family: 'Montserrat', sans-serif;
+}
+.container {
+    border: 1px solid;
+    height: 90px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+   
+    
+  
+}
+.container2 {
+    border: 1px solid;
+   height: 470px;
+    border-radius: 20px;
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 100px;
+   
+    padding-left: 45px;
+    
+}
+.cat 
+{
+    width: 650px;
+   margin-left: 600px;
+   position: relative;
+   bottom: 280px;
+   margin-bottom: 380px;
+   
+   
+    
+   
+   
+    
+}
+
+.navigation  {
+    
+   color: rgb(10, 10, 10);
+   border-radius: 6px;
+   position: relative;
+   left: 350px;
+   bottom: 50px;
+
+
+   
+   
+   
+  
+  
+}
+
+.tx {
+    border: 1px solid;
+    border-radius: 25px;
+    position: relative;
+    min-width: 300px;
+    min-height: 400px;
+   left: 25px;
+   bottom: 15px;
+   padding-left: 15px;
+   
+   
+}
+#tx2 {
+
+}
+.text-nav {
+    margin-left: 300px;
+    padding-bottom: 25px;
+   
+}
+.info-text {
+    font-size: 24px;
+}
+.body2 {
+    background-color: white;
+}
+.but {
+   position: static;
+   top: 70px;
+    background-color: rgb(243, 208, 12);
+    height: 70px;
+    border-radius: 35px;
+    border: 1px solid;
+    font-size: 22px;
+    width: 250px;
+    color: beige;
+  
+    
+}
+.intro {
+    font-size: 20px;
+    font-weight: bold;
+}
+ #vk {
+    background-color: rgb(95, 95, 214);
+    height: 43px;
+    width: 180px;
+    position: relative;
+    left: 800px;
+    bottom: 85px;
+    border-radius: 25px;
+    border: 0px;
+   color: white;
+   font-size: 22px;
+   font-weight: bold;
+
+    
+}
+.vk2 {
+    color: white;
+    font-size: 22px;
+    font-weight: bold;
+
+}
+a {
+    text-decoration: none;
+}
+.clic {
+    border: none;
+    background-color: white;
+    font-size: 18px;
+}
+#axis:hover .cat {
+    transform: translate(20px,3px);
+    -webkit-transform: translate(20px, 3px);
+    -o-transform: translate(20px, 3px);
+    -moz-transform: translate(20px, 3px);
+    animation-iteration-count: infinite;
+}
+.one {
+    transition: all 2s linear;
+    -webkit-transition: all 2s linear;
+    -moz-transition: all 2s linear;
+    -o-transition: all 2s linear;
+    animation-iteration-count: infinite;
+}
+.container3 {
+    background-color: white;
+    background-position-x: center;
+    width: 100%;
+    
+    
+    padding-left: -25px;
+   
+    
+    
+    
+    
+    
+
+
+}
+#tx {
+    font-size: 48px;
+    margin-left: 70px;
+    line-height: 25px;
+    padding-top: 15px;
+    
+   
+}
+
+
+}
+.table {
+    border: 1px solid;
+   margin-bottom: 25px;
+   margin-left: 10px;
+   border-radius: 20px;
+  
+}
+.rocet {
+    width: 190px;
+}
+.popup {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.687);
+    top: 0;
+    left: 0;
+    opacity: 0;
+    visibility: hidden;
+}
+.popup:target {
+    opacity: 1;
+    visibility: visible;
+}
+.popup__body {
+    min-height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 10px;
+}
+.popup__content {
+    background-color: blueviolet;
+    color: black;
+    max-width: 400px;
+    padding: 30px;
+    position: relative;
+    border-radius: 35px;
+    
+    font-color: white;
+    
+    
+
+}
+.popup__close {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+
+
+}
+.popup__title {
+    font-size: 40px;
+    margin: 0px 0px 1em 0px;
+}
+.popup__text {
+    align-items: center;
+    justify-content: center;
+}
+.but2 {
+    position: static;
+   margin-right: 150px;
+    background-color: rgb(243, 208, 12);
+    height: 70px;
+    border-radius: 35px;
+    border: 1px solid;
+    font-size: 22px;
+    width: 250px;
+    color: beige;
+}
+.but3 {
+    position: static;
+   margin-right: 350px;
+    background-color: rgb(243, 208, 12);
+    height: 70px;
+    border-radius: 35px;
+    border: 1px solid;
+    font-size: 22px;
+    width: 200px;
+    color: beige;
+    margin-top: 15px;
+    
+   
+}
+#popup {
+    font: white;
+}
