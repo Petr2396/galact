@@ -1,6 +1,6 @@
 
 
-@media (min-width: 600px) and (max-width: 800px){ }
+
 
 body {
     background-color: rgb(165, 72, 252);
@@ -8,6 +8,77 @@ body {
     overflow-x: hidden;
     
    
+}
+
+@media (max-width: 991px) and (min-width: 0px) {
+html {
+zoom: 100%;
+}
+}
+@media (max-width: 1024px) and (min-width: 992px) {
+html {
+zoom: 53.33333333333333%;
+}
+}
+@media (max-width: 1152px) and (min-width: 1025px) {
+html {
+zoom: 60%;
+}
+}
+@media (max-width: 1200px) and (min-width: 1153px) {
+html {
+zoom: 62.5%;
+}
+}
+@media (max-width: 1280px) and (min-width: 1201px) {
+html {
+zoom: 66.66666666666667%;
+}
+}
+@media (max-width: 1360px) and (min-width: 1281px) {
+html {
+zoom: 70.83333333333333%;
+}
+}
+@media (max-width: 1366px) and (min-width: 1361px) {
+html {
+zoom: 71.14583333333333%;
+}
+}
+@media (max-width: 1400px) and (min-width: 1367px) {
+html {
+zoom: 72.91666666666667%;
+}
+}
+@media (max-width: 1408px) and (min-width: 1401px) {
+html {
+zoom: 73.33333333333333%;
+}
+}
+@media (max-width: 1440px) and (min-width: 1409px) {
+html {
+zoom: 75%;
+}
+}
+@media (max-width: 1536px) and (min-width: 1441px) {
+html {
+zoom: 80%;
+}
+}
+@media (max-width: 1600px) and (min-width: 1537px) {
+html {
+zoom: 83.33333333333333%;
+}
+}
+@media (max-width: 1680px) and (min-width: 1601px) {
+html {
+zoom: 87.5%;
+}
+}
+@media (max-width: 1920px) and (min-width: 1681px) {
+html {
+zoom: 100%;
+}
 }
 
 
