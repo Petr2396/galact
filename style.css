@@ -1,0 +1,547 @@
+
+
+
+
+body {
+    background-color: rgb(165, 72, 252);
+    font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
+    
+   
+}
+
+
+ 
+.header {
+    background-color: white;
+    height: 110px;
+    border-radius: 35px;
+    position: relative;
+   align-items: center;
+
+    
+    
+}
+
+
+.fix{
+
+    position: fixed;
+}
+
+.container {
+    max-width: 100%;
+    
+    
+    
+    
+
+
+   
+    
+}
+
+
+
+.logo2 {
+    width: 140px;
+    max-width: 90%;
+    min-width: none;
+    margin-left: 50px;
+    
+ 
+}
+
+
+
+
+.menu  {
+    
+    margin-left: 450px;
+    position: relative;
+    bottom: 60px;
+    font-weight: bold;
+   max-width: 100%;
+    
+    
+}
+
+
+ 
+.menu-item  {
+    display: flex;
+    float: left;
+    margin-right: 65px;
+    font-size: 16px;
+   
+    
+    }
+
+    .button-vk {
+        max-width: 100%;
+        background: none;
+        border: 0;
+        position: relative;
+        bottom: 70px;
+        left: 125px;
+
+    }
+
+
+    .vk {
+        border-radius: 50px;
+        height: 45px;
+        max-width: 100%;
+
+    }
+
+
+    .info {
+      background-color: white;
+      border-radius: 35px;
+      height: 375px;
+      max-height: 100%;
+      max-width: 100%;
+    
+      margin: 40px 95px;
+    }
+
+    .school {
+        background-color: white;
+        width: 103%;
+        left: -15px;
+        right: 15px;
+        height: 1000px;
+        max-height: 100%;
+        
+        position: relative;
+        z-index: 1;
+    }
+
+    .popup {
+        position: fixed;
+          width: 100%;
+          height: 100%;
+          background-color: rgba(11, 11, 11, 0.561);
+          top: 0;
+          left: 0;
+          opacity: 0;
+          visibility: hidden;
+          z-index: 3;
+      }
+      .popup:target {
+        opacity: 1;
+        visibility: visible;
+    }
+    .popup__body {
+      min-height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+      .popup__content {
+          background-color: rgb(165, 72, 252);
+          color: rgb(8, 7, 7);
+          max-width: 500px;
+         
+          padding: 30px;
+          position: relative;
+          border-radius: 35px;
+          align-items: center;
+          justify-content: center;
+          
+          
+        }
+
+
+      .popup__close {
+          position: absolute;
+          right: 10px;
+          top: 10px;
+          font-size: 20px;
+          color: black;
+          text-decoration: none;
+      
+      
+      }
+      .popup__title {
+          font-size: 35px;
+          margin: 0px 0px 1em 0px;
+      }
+      .popup__text {
+          align-items: center;
+          justify-content: center;
+          color: #fff;
+      }
+
+      .adress {
+        font-size: 20px;
+ 
+        color: #fff;
+      }
+      
+      .icon {
+      border-radius: 25px;
+      max-width: 44px;
+      
+      }
+
+      .text1 {
+        font-size: 25px;
+        margin-left: 50px;
+        line-height: 20px;
+        position: static;
+        padding-top: 10px;
+        font-weight: bold;
+        
+      }
+
+
+      .text2 {
+        font-size: 25px;
+        margin-left: 50px;
+        line-height: 20px;
+        position: static;
+        padding-top: 10px;
+        font-weight: bold;
+      }
+
+      .text3 {
+        margin-left: 35px;
+        
+     
+      }
+
+      
+
+      .but {
+        position: relative;
+        width: 190px;
+        height: 45px;
+        background-color: yellow;
+        border-radius: 18px;
+        border: 0;
+        margin-left: 50px;
+        bottom: 510px;
+        
+
+      }
+
+      .but1 {
+        
+      position: relative;
+      margin-left: 1050px;
+      display: inline-block;
+      align-items: center;
+      padding-left: 5px;
+    
+
+      
+    
+      }
+
+      .but2 {
+        position: relative;
+        background: none;
+        border-radius: 50%;
+        border: 0;
+        width: 45px;
+        height: 45px;
+        bottom: 95px;
+        
+        
+      
+        
+        
+        
+       
+
+       
+        
+      }
+
+
+
+     
+
+      .cat {
+       position: relative;
+        width: 650px;
+        left: 400px;
+        bottom: 330px;
+        z-index: 2;
+       
+        
+      }
+
+      
+
+      .win {
+      align-items: center;
+      margin-top: 50px;
+      
+      
+      }
+     
+
+
+      .img {
+        width: 150px;
+        max-width: 100%;
+        min-width: 50px;
+        margin: 35px 35px;
+      }
+
+      .head 
+      {
+        display: inline-block;
+      }
+
+
+
+
+      
+      .sliderA {
+        width: 100%;
+        height: 300px;
+       
+        position: relative;
+        text-align: center;
+    }
+
+    .sliderA > input {
+        display: none;
+    }
+
+    .sliderA > input + label {
+        display: inline-block;
+        width: 10px;
+        height: 10px;
+        border-radius: 8px;
+        background: rgba(90, 90, 90, 0.8);
+        border: 2px solid rgba(190, 190, 190, 0.8);
+
+        cursor: pointer;
+
+        z-index: 100;
+        position: relative;
+
+        margin-right: 4px;
+        top: 90%;
+
+        transition: background 0.8s ease-out 0s;
+    }
+
+    .sliderA > input + label:hover {
+        background: rgba(250, 250, 250, 0.8);
+    }
+
+    .sliderA > input:checked + label {
+        background: rgba(220, 220, 220, 0.8);
+    }
+
+
+    .sliderA > div {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 0;
+    }
+
+    .sliderA > div {
+        visibility: hidden;
+        opacity: 0;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0.9s;
+    }
+
+    .sliderA > input:checked + label + div {
+        visibility: visible;
+        opacity: 1;
+        transition: opacity 0.8s ease-out 0.1s, visibility 0.1s ease-out 0s;
+    }
+    .sliderA > div > p {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        text-align: center;
+        color: #fff;
+        text-shadow: 1px 1px 2px #000;
+    }
+
+    .sliderA > input + label + div + label {
+        display: none;
+    }
+
+    .sliderA > input:checked + label + div + label {
+        display: block;
+        position: absolute;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        bottom: 0px;
+        z-index: 50;
+    }
+
+    .button-vk2 {
+       padding: 10px 10px;
+        height: 70px;
+        width: 220px;
+        border-radius: 15px;
+        background-color: blueviolet;
+        border: 0;
+        position: relative;
+        top: 250px;
+        left: 105px;
+        text-decoration: none;
+        color: white;
+    }
+
+
+    .header2 {
+        background-color: white;
+        height: 110px;
+        
+        border-radius: 35px;
+        position: relative;
+       align-items: center;
+       margin-top: 40px;
+    }
+
+    .galact {
+        margin-top: 20px;
+        color: #000;
+        text-decoration: none;
+        margin-left: 525px;
+        padding: 20px 0;
+    }
+
+    .school2 {
+       margin-top: 110px;
+       align-items: center;
+
+    }
+
+    .belka {
+       position: relative;
+       bottom: 350px;
+       right: 450px;
+       z-index: 3;
+    }
+
+    .saturn {
+        width: 190px;
+        position: relative;
+        bottom: 550px;
+        right: 450px;
+        z-index: 2;
+    }
+    .star {
+        position: relative;
+        width: 550px;
+        bottom: 370px ;
+    }
+
+    .kosmo {
+       position: relative;
+       bottom: 100px;
+       
+    }
+
+    .plan {
+        margin-left: 70px;
+       
+        
+    }
+
+    .squeri {
+        width: 300px;
+        height: 250px;
+        position: relative;
+        border-radius: 25px;
+        border: 1px solid;
+        display: inline-block;
+        margin-left: 60px;
+        bottom: 350px;
+        padding: 15px 10px;
+        z-index: 1;
+    }
+
+    .olimpic {
+        width: 104%;
+        background-color: #fff;
+        margin-left: -15px;
+        position: relative;
+        height: 700px;
+        z-index: 2;
+       
+    }
+
+
+    .olimp {
+     position: relative;
+     font-size: 32px;
+     margin-left: 60px;
+        
+        
+    }
+
+    .squeri1 {
+        position: relative;
+        border: 1px solid;
+        border-radius: 20px;
+        width: 250px;
+        height: 410px;
+        margin-left: 30px;
+        padding: 15px 15px;
+        bottom: 20px;
+    }
+
+    .squeri2 {
+        position: relative;
+        border: 1px solid;
+        border-radius: 20px;
+        width: 700px;
+        height: 190px;
+        margin-left: 350px;
+        bottom: 460px;
+        padding: 15px 15px ;
+       
+    }
+     
+
+    .squeri3 {
+        position: relative;
+        border: 1px solid;
+        border-radius: 20px;
+        width: 450px;
+        height: 160px;
+        margin-left: 350px;
+        margin-top: 25px;
+        bottom: 460px;
+        padding: 15px 15px ;
+       
+    }
+
+    .squeri4 {
+        position: relative;
+        border: 1px solid;
+        border-radius: 20px;
+        width: 205px;
+        height: 160px;
+        margin-left: 850px;
+        margin-top: 25px;
+        bottom: 680px;
+        padding: 15px 15px ;
+       
+    } 
+
+
+    .ol {
+        margin-left: 130px;
+    }
+    
