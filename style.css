@@ -282,6 +282,7 @@ body {
       .win {
       align-items: center;
       margin-top: 50px;
+      min-width: 1620px;
       
       
       }
